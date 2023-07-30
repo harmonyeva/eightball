@@ -1,8 +1,8 @@
 
 
 // hides loading and answer until button is pressed
-let loading = document.getElementById('loading');
-let answer = document.getElementById('answer');
+const loading = document.getElementById('loading');
+const answer = document.getElementById('answer');
 
 function noShow() {
     loading.style.display = 'none';
