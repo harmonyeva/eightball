@@ -1,12 +1,12 @@
 
 
 // hides loading and answer until button is pressed
-const loading = document.getElementById('loading');
-const answer = document.getElementById('answer');
+// const loading = document.getElementById('loading');
+// const answer = document.getElementById('answer');
 
 function noShow() {
-    loading.style.display = 'none';
-    answer.style.display = 'none';
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('answer').style.display = 'none';
 };
 
 document.onload = noShow();
