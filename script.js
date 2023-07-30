@@ -18,7 +18,7 @@ const userQuestion = document.getElementById('question');
 // when user presses enter, shows loading text
 userQuestion.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
-        loading.style.display = '';
+        document.getElementById('loading').style.display = '';
     }
 });
 
@@ -26,7 +26,7 @@ userQuestion.addEventListener('keypress', function (e) {
 userQuestion.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         setTimeout(() => {
-            answer.style.display = ''
+            document.getElementById('answer').style.display = ''
         }, 2500)
     };
 });
