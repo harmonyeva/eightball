@@ -1,19 +1,19 @@
 
 
 // hides loading and answer until button is pressed
-let loading = document.getElementById('loading')
-let answer = document.getElementById('answer')
+let loading = document.getElementById('loading');
+let answer = document.getElementById('answer');
 
 function noShow() {
-    loading.style.display = 'none'
-    answer.style.display = 'none'
-}
+    loading.style.display = 'none';
+    answer.style.display = 'none';
+};
 
-document.onload = noShow()
+document.onload = noShow();
 
 
 // allowing you to input text into textbox
-const userQuestion = document.getElementById('question')
+const userQuestion = document.getElementById('question');
 
 // when user presses enter, shows loading text
 userQuestion.addEventListener('keypress', function (e) {
@@ -28,7 +28,7 @@ userQuestion.addEventListener('keypress', function (e) {
         setTimeout(() => {
             answer.style.display = ''
         }, 2500)
-    }
+    };
 });
 
 
@@ -68,4 +68,4 @@ switch (randomNumber) {
     break;
 };
 
-document.getElementById('answer').innerHTML = eightBall
+document.getElementById('answer').innerHTML = eightBall;
