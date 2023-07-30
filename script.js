@@ -9,7 +9,7 @@ function noShow() {
     answer.style.display = 'none'
 }
 
-window.onload = noShow()
+document.onload = noShow()
 
 
 // allowing you to input text into textbox
